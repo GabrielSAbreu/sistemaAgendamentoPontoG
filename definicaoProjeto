@@ -1,0 +1,50 @@
+Nome : 
+
+
+Descrição:
+
+Objetivo: 
+
+--------------------------------------------------------------------------------
+
+REQUISITOS DO PROJETO
+
+**Entidade:
+
+	***nomeEntidade1;
+		=ATRIBUTOS=
+			-atributo1;
+			-atributo2;
+			-atributo3;
+			-atributo4;
+
+	***nomeEntidade2;
+		=ATRIBUTOS=
+			-atributo1;
+			-atributo2;
+			-atributo3;
+			-atributo4;
+
+**Requisitos:
+
+	***Permitir .....;
+	***Permitir .....;
+	***Permitir .....;
+
+	***Permitir .....;
+	***Permitir .....;
+	***Permitir .....;
+	***Permitir .....;
+
+-------------------------------------------------------
+REGRAS DE NEGÓCIO
+
+*
+*
+*
+
+-------------------------------------------------------
+DEFINIÇÃO DA TECNOLOGIA
+
+**Java;
+**MySQL;
