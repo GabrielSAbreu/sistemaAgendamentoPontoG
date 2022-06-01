@@ -1,9 +1,8 @@
-Nome : 
+Nome : Agenda Fácil 
 
+Descrição: Aplicação para o gerenciamento de agenda da equipe de serviços de culinarista PontoG
 
-Descrição:
-
-Objetivo: 
+Objetivo: Resolver a questão de agendamento de clientes conforme serviço solicitado
 
 --------------------------------------------------------------------------------
 
@@ -11,37 +10,50 @@ REQUISITOS DO PROJETO
 
 **Entidade:
 
-	***nomeEntidade1;
+	***clientes;
 		=ATRIBUTOS=
-			-atributo1;
-			-atributo2;
-			-atributo3;
-			-atributo4;
+			-idCliente;
+			-Nome;
+			-telefone;
+			-email;
+			-notas,
+			-data de registro de dados;
+			-data de atualização de dados;
 
-	***nomeEntidade2;
+	***servicos;
 		=ATRIBUTOS=
-			-atributo1;
-			-atributo2;
-			-atributo3;
-			-atributo4;
+			-idServico;
+			-descricao;
+			-status;
+			-idCliente;
+			-idCardapio;
+			-data agendamento;
+			
+	***cardapio;
+		=ATRIBUTOS=
+			-idCardapio;
+			-descrição;
+			-notas;
+			-status;
 
 **Requisitos:
+	***Permitir cadastrar cliente;
+	***Permitir alterar cliente;
+	***Permitir deletar cliente;
 
-	***Permitir .....;
-	***Permitir .....;
-	***Permitir .....;
+	***Permitir criar serviços;
+	***Permitir alterar serviços;
+	***Permitir deletar serviços;
 
-	***Permitir .....;
-	***Permitir .....;
-	***Permitir .....;
-	***Permitir .....;
-
--------------------------------------------------------
+	***Permitir criar cardapio;
+	***Permitir alterar cardapio;
+	***Permitir deletar cardapio;
+-------------------------------------------------------------------------------------------------------
 REGRAS DE NEGÓCIO
 
-*
-*
-*
+*Haverá o conceito de usuário
+*Haverá sistema de login
+*Todo cliente estará atribuido a um serviço
 
 -------------------------------------------------------
 DEFINIÇÃO DA TECNOLOGIA
