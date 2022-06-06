@@ -53,7 +53,7 @@ REGRAS DE NEGÓCIO
 
 *Haverá o conceito de usuário
 *Haverá sistema de login
-*Todo cliente estará atribuido a um serviço
+*Todo serviço estará atribuido a um cliente
 
 -------------------------------------------------------
 DEFINIÇÃO DA TECNOLOGIA
