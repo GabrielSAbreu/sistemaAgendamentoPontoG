@@ -36,8 +36,8 @@ REQUISITOS DO PROJETO
 			-notas;
 			-status;
 			
-	***cardapio;
-		=PRATOS=
+	***pratos;
+		=ATRIBUTOS=
 			-idPrato;
 			-descrição;
 			-notas;
@@ -54,7 +54,11 @@ REQUISITOS DO PROJETO
 
 	***Permitir criar cardapio;
 	***Permitir alterar cardapio;
-	***Permitir deletar cardapio;
+	***Permitir deletar cardapio
+	
+	***Permitir criar prato;
+	***Permitir alterar prato;
+	***Permitir deletar prato;
 -------------------------------------------------------------------------------------------------------
 REGRAS DE NEGÓCIO
 
