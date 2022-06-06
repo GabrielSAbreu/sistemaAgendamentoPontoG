@@ -16,6 +16,9 @@ REQUISITOS DO PROJETO
 			-Nome;
 			-telefone;
 			-email;
+			-cpf,
+			-cnpj,
+			-cep,
 			-notas,
 			-data de registro de dados;
 			-data de atualização de dados;
