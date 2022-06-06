@@ -35,6 +35,13 @@ REQUISITOS DO PROJETO
 			-descrição;
 			-notas;
 			-status;
+			
+	***cardapio;
+		=PRATOS=
+			-idPrato;
+			-descrição;
+			-notas;
+			-status;
 
 **Requisitos:
 	***Permitir cadastrar cliente;
